@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xXOotQrIwL01t0mJQtBxaQen6HHoJJlQBwo4VP7WX4fbbIfj7XtbDY4TZXOAP8QmR6kXyWKTBUIlWhDLz1cg0Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Skylan\\Desktop\\Epicodus\\Projects\\csharpdotnet\\Bakery.Solution\\Bakery\\Bakery.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Skylan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
