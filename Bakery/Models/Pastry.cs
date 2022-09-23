@@ -14,7 +14,13 @@ namespace Bakery
     }
     public void CalcCost()
     {
-      int totalCost = ToBuy * _cost;
+      int hasDiscount = ToBuy / 3;
+      int totalCost = 0;
+      totalCost += hasDiscount;
+      for(int i = hasDiscount; i < ToBuy; i++)
+      {
+        totalCost += _cost;
+      }
       TotalCost = totalCost;
     }
   }
