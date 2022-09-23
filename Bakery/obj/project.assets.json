@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Skylan\\Desktop\\Epicodus\\Projects\\csharpdotnet\\Bakery.Solution\\bakery\\Bakery.csproj",
+      "projectUniqueName": "C:\\Users\\Skylan\\Desktop\\Epicodus\\Projects\\csharpdotnet\\Bakery.Solution\\Bakery\\Bakery.csproj",
       "projectName": "Bakery",
-      "projectPath": "C:\\Users\\Skylan\\Desktop\\Epicodus\\Projects\\csharpdotnet\\Bakery.Solution\\bakery\\Bakery.csproj",
+      "projectPath": "C:\\Users\\Skylan\\Desktop\\Epicodus\\Projects\\csharpdotnet\\Bakery.Solution\\Bakery\\Bakery.csproj",
       "packagesPath": "C:\\Users\\Skylan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Skylan\\Desktop\\Epicodus\\Projects\\csharpdotnet\\Bakery.Solution\\bakery\\obj\\",
+      "outputPath": "C:\\Users\\Skylan\\Desktop\\Epicodus\\Projects\\csharpdotnet\\Bakery.Solution\\Bakery\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -60,12 +60,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.17, 5.0.17]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
