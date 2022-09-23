@@ -3,15 +3,17 @@ using Bakery;
 
 namespace Bakery.Tests
 {
-  [TestClass]
-  public class PastryTests
-  {
-    // Test methods go here
-  [TestMethod]
-    public void NameOfMethodToTest_DescribeBehavior_ExpectedReturnValue()
-    {
-      //any logic prep goes here
-      Assert.AreEqual(EXPECTED RESULT, CODE TO TEST);
-    }
-  }
+  // [TestClass]
+  // public class PastryTests
+  // {
+  //   // Test methods go here
+  // [TestMethod]
+  //   public void CalcCost_BuyOneForTwoDollars_True()
+  //   {
+  //     //any logic prep goes here
+  //     Bread buyOne = new Bread(1);
+  //     buyOne.CalcCost();
+  //     Assert.AreEqual(2, buyOne.TotalCost);
+  //   }
+  // }
 }
