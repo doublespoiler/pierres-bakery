@@ -12,9 +12,9 @@ namespace Bakery
       _cost = 2;
       TotalCost = 0;
     }
-    private void CalcCost()
+    public void CalcCost()
     {
-      int totalCost = 0;
+      int totalCost = ToBuy * _cost;
       TotalCost = totalCost;
     }
   }
