@@ -8,10 +8,13 @@ namespace Bakery.Tests
   {
     // Test methods go here
   [TestMethod]
-    public void NameOfMethodToTest_DescribeBehavior_ExpectedReturnValue()
+
+    public void CalcCost_BuyOneForTwoDollars_True()
     {
       //any logic prep goes here
-      Assert.AreEqual(EXPECTED RESULT, CODE TO TEST);
+      Bread buyOne = new Bread(1);
+      buyOne.CalcCost();
+      Assert.AreEqual(2, buyOne.TotalCost);
     }
   }
 }
