@@ -10,3 +10,7 @@ C:\Users\Skylan\Desktop\Epicodus\Projects\csharpdotnet\Bakery.Solution\Bakery\bi
 C:\Users\Skylan\Desktop\Epicodus\Projects\csharpdotnet\Bakery.Solution\Bakery\obj\Debug\net5.0\Bakery.dll
 C:\Users\Skylan\Desktop\Epicodus\Projects\csharpdotnet\Bakery.Solution\Bakery\obj\Debug\net5.0\ref\Bakery.dll
 C:\Users\Skylan\Desktop\Epicodus\Projects\csharpdotnet\Bakery.Solution\Bakery\obj\Debug\net5.0\Bakery.pdb
+C:\Users\Skylan\Desktop\Epicodus\Projects\csharpdotnet\Bakery.solution\bakery\bin\Debug\net5.0\Bakery.exe
+C:\Users\Skylan\Desktop\Epicodus\Projects\csharpdotnet\Bakery.solution\bakery\bin\Debug\net5.0\Bakery.runtimeconfig.json
+C:\Users\Skylan\Desktop\Epicodus\Projects\csharpdotnet\Bakery.solution\bakery\bin\Debug\net5.0\Bakery.runtimeconfig.dev.json
+C:\Users\Skylan\Desktop\Epicodus\Projects\csharpdotnet\Bakery.solution\bakery\obj\Debug\net5.0\Bakery.genruntimeconfig.cache
