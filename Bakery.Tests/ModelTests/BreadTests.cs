@@ -9,7 +9,7 @@ namespace Bakery.Tests
     // Test methods go here
   [TestMethod]
 
-    public void CalcCost_BuyOneForTwoDollars_True()
+    public void CalcCost_BuyOneForFiveDollars_True()
     {
       //any logic prep goes here
       Bread buyOne = new Bread(1);
@@ -18,7 +18,7 @@ namespace Bakery.Tests
     }
 
   [TestMethod]
-    public void CalcCost_BuyTwoForFourDollars_True()
+    public void CalcCost_BuyTwoForTenDollars_True()
     {
       Bread buyTwo = new Bread(2);
       buyTwo.CalcCost();
