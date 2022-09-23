@@ -21,5 +21,12 @@ namespace Bakery.Tests
         buyTwo.CalcCost();
         Assert.AreEqual(4, buyTwo.TotalCost);
       }
+    [TestMethod]
+      public void CalcCost_BuyThreeForFiveDollars_True()
+      {
+        Pastry buyThree = new Pastry(3);
+        buyThree.CalcCost();
+        Assert.AreEqual(5, buyThree.TotalCost);
+      }
   }
 }
