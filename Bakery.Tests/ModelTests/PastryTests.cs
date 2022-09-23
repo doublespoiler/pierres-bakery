@@ -44,5 +44,13 @@ namespace Bakery.Tests
         buyFive.CalcCost();
         Assert.AreEqual(9, buyFive.TotalCost);
       }
+    
+    [TestMethod]
+      public void CalcCost_BuySixForTen_True()
+      {
+        Pastry buySix = new Pastry(6);
+        buySix.CalcCost();
+        Assert.AreEqual(10, buySix.TotalCost);
+      }
   }
 }
