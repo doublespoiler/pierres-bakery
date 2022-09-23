@@ -33,5 +33,13 @@ namespace Bakery.Tests
       Assert.AreEqual(10, buyThree.TotalCost);
     }
 
+  [TestMethod]
+    public void CalcCost_BuyFive_True()
+    {
+      Bread buyFive = new Bread(5);
+      buyFive.CalcCost();
+      Assert.AreEqual(20, buyFive.TotalCost); //paying for 4
+    }
+
   }
 }
