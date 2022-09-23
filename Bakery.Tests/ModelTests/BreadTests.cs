@@ -14,7 +14,7 @@ namespace Bakery.Tests
       //any logic prep goes here
       Bread buyOne = new Bread(1);
       buyOne.CalcCost();
-      Assert.AreEqual(2, buyOne.TotalCost);
+      Assert.AreEqual(5, buyOne.TotalCost);
     }
 
   [TestMethod]
@@ -22,7 +22,8 @@ namespace Bakery.Tests
     {
       Bread buyTwo = new Bread(2);
       buyTwo.CalcCost();
-      Assert.AreEqual(4, buyTwo.TotalCost);
+      Assert.AreEqual(10, buyTwo.TotalCost);
     }
+
   }
 }

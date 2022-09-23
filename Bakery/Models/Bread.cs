@@ -10,7 +10,7 @@ namespace Bakery
     public Bread(int toBuy)
     {
       ToBuy = toBuy;
-      _cost = 2;
+      _cost = 5;
       TotalCost = 0;
 
     }
