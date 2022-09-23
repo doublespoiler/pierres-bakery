@@ -18,6 +18,7 @@ namespace Bakery
     public void CalcCost() //buy 2 get 1 free
     {
       int totalCost = 0;
+      totalCost += 2;
       TotalCost = totalCost;
     }
   }
