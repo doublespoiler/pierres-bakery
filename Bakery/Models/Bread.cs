@@ -12,7 +12,6 @@ namespace Bakery
       ToBuy = toBuy;
       _cost = 5;
       TotalCost = 0;
-
     }
 
     public void CalcCost() //buy 2 get 1 free
