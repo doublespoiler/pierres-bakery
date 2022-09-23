@@ -30,7 +30,7 @@ namespace Bakery.Tests
     {
       Bread buyThree = new Bread(3);
       buyThree.CalcCost();
-      Assert.AreEqual(10, buyThree.TotalCost);
+      Assert.AreEqual(10, buyThree.TotalCost); //paying for 2 (1 free)
     }
 
   [TestMethod]
@@ -38,8 +38,15 @@ namespace Bakery.Tests
     {
       Bread buyFive = new Bread(5);
       buyFive.CalcCost();
-      Assert.AreEqual(20, buyFive.TotalCost); //paying for 4
+      Assert.AreEqual(20, buyFive.TotalCost); //paying for 4 (1 free)
     }
 
+  [TestMethod]
+    public void CalcCost_BuySix_True()
+    {
+      Bread buySix = new Bread(6);
+      buySix.CalcCost();
+      Assert.AreEqual(20, buySix.TotalCost); //paying for 4 (2 free)
+    }
   }
 }
