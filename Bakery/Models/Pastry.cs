@@ -5,7 +5,6 @@ namespace Bakery
     public int ToBuy { get; set; }
     private int _cost;
     public int TotalCost {get; set;}
-
     public Pastry(int toBuy)
     {
       ToBuy = toBuy;
@@ -15,13 +14,11 @@ namespace Bakery
     public void CalcCost()
     {
       int hasDiscount = ToBuy / 3;
-      int totalCost = 0;
-      totalCost += hasDiscount;
+      TotalCost += hasDiscount;
       for(int i = hasDiscount; i < ToBuy; i++)
       {
-        totalCost += _cost;
+        TotalCost += _cost;
       }
-      TotalCost = totalCost;
     }
   }
 }
